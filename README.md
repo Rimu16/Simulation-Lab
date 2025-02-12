@@ -16,20 +16,6 @@
 2. Create a 4x4 random matrix, visualize as a heatmap, and label rows/columns.
 3. Generate two 4x4 matrices, perform arithmetic operations, visualize with bar plots.
 
-## Concepts Covered
-- Random number generation
-- Data visualization with Matplotlib
-- Matrix operations with NumPy
-- Heatmap visualization
-- Bar plot representation of matrix computations
-
-## What I Learned
-- How to generate and manipulate random numerical data in Python.
-- Effective use of Matplotlib for visualizing mathematical operations.
-- Understanding of matrix operations and their effects.
-- How to present data using heatmaps and bar plots.
-- Best practices for structuring a professional GitHub repository.
-
 ## Explanation of the Codes:
 For Question 01:
 01. np.random.rand(15) creates 15 random floating numbers between 0 and 1 for each vector.
@@ -62,5 +48,19 @@ Represents the difference between corresponding elements of A and B. It shows ho
 
 Multiplication :
 Represents the dot product of A and B. It reflects the combined linear transformation of the two matrices.
+
+## Concepts Covered
+- Random number generation
+- Data visualization with Matplotlib
+- Matrix operations with NumPy
+- Heatmap visualization
+- Bar plot representation of matrix computations
+
+## What I Learned
+- How to generate and manipulate random numerical data in Python.
+- Effective use of Matplotlib for visualizing mathematical operations.
+- Understanding of matrix operations and their effects.
+- How to present data using heatmaps and bar plots.
+- Best practices for structuring a professional GitHub repository.
 
 
