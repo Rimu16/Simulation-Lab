@@ -1,20 +1,36 @@
-#Personal Information
+## Personal Information
+*Name:* Farhana Yeasmin Rimu  
+*ID:* 2215151009  
+*University:* UITS (University of Information Technology and Sciences)  
+*Department:* Computer Science and Engineering (CSE)  
+*Batch:* 51  
+*Section:* 7A1   
 
-Name: Farhana Yeasmin Rimu
+## Course Details
+*Course Code:* CSE 413  
+*Course Name:* Simulation and Modeling Lab  
+*Course Teacher:* Audity Ghosh, Lecturer, Department of Computer Science and Engineering, University of Information Technology and Sciences (UITS)
 
-ID: 2215151009
+## Tasks
+1. Generate two vectors with 15 random floats, plot them, and label axes.
+2. Create a 4x4 random matrix, visualize as a heatmap, and label rows/columns.
+3. Generate two 4x4 matrices, perform arithmetic operations, visualize with bar plots.
 
-University Name: University of Information Technology and Sciences 
+## Concepts Covered
+- Random number generation
+- Data visualization with Matplotlib
+- Matrix operations with NumPy
+- Heatmap visualization
+- Bar plot representation of matrix computations
 
-Course Code: CSE 413
+## What I Learned
+- How to generate and manipulate random numerical data in Python.
+- Effective use of Matplotlib for visualizing mathematical operations.
+- Understanding of matrix operations and their effects.
+- How to present data using heatmaps and bar plots.
+- Best practices for structuring a professional GitHub repository.
 
-Course Title:  Simulation & Modeling Lab
-
-
-#Assignment Details
-
-Explanation of the Codes:
-
+## Explanation of the Codes:
 For Question 01:
 01. np.random.rand(15) creates 15 random floating numbers between 0 and 1 for each vector.
 02. np.arange(len(vector1)) generates an index array [0, 1, 2, ... 14] for the x-axis.
@@ -37,6 +53,7 @@ For Question 03:
 04.plt.tight_layout() adjusts spacing between subplots.
 
 Discussion of Effects:
+
 Addition :
 Combines corresponding elements of A and B. 
 
@@ -45,3 +62,5 @@ Represents the difference between corresponding elements of A and B. It shows ho
 
 Multiplication :
 Represents the dot product of A and B. It reflects the combined linear transformation of the two matrices.
+
+
