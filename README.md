@@ -89,7 +89,7 @@ For Question 03:
 01. np.random.seed(None) - This ensures that the random number generator uses a new random starting point every time the code runs.
 02. Since no fixed seed is set, the numbers will change every time you run the code.
 
-## Difference between the two output
+## Difference Between The Two Output
 01. Reproducibility:
 Seeded: Output is reproducible and consistent across runs.
 Non-Seeded: Output is not reproducible and changes every time.
