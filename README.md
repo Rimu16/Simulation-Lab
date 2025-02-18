@@ -11,10 +11,11 @@
 *Course Name:* Simulation and Modeling Lab  
 *Course Teacher:* Audity Ghosh, Lecturer, Department of Computer Science and Engineering, University of Information Technology and Sciences (UITS)
 
+## Assignment - 01
 ## Tasks
-1. Generate two vectors with 15 random floats, plot them, and label axes.
-2. Create a 4x4 random matrix, visualize as a heatmap, and label rows/columns.
-3. Generate two 4x4 matrices, perform arithmetic operations, visualize with bar plots.
+01. Generate two vectors with 15 random floats, plot them, and label axes.
+02. Create a 4x4 random matrix, visualize as a heatmap, and label rows/columns.
+03. Generate two 4x4 matrices, perform arithmetic operations, visualize with bar plots.
 
 ## Explanation of the Codes:
 For Question 01:
@@ -64,3 +65,37 @@ Represents the dot product of A and B. It reflects the combined linear transform
 - Best practices for structuring a professional GitHub repository.
 
 
+
+## Assignment - 02
+## Tasks
+01. Use numpy to create a 3×3 matrix of random integers between 1 and 50.
+02. With a fixed seed (`np.random.seed(10)`) to ensure reproducibility.
+03. Without setting a seed, allowing random values to change each time.
+
+## Explanation of the Codes:
+For Question 01:
+01. This imports the NumPy library, which is used for numerical computing.
+02. np.random.randint(1, 50, (3, 3)) generates a 3×3 matrix with random integers.
+03. 1 is the inclusive lower bound.
+04. 50 is the exclusive upper bound.
+05. (3, 3) specifies the matrix size.
+06. Displays the generated 3×3 matrix on the screen.
+
+For Question 02:
+01. np.random.seed(10) - random seed to 10, ensuring that the same random numbers are generated each time the code is run.
+02. Since the seed is fixed, this matrix will always be the same every time you run the code.
+
+For Question 03:
+01. np.random.seed(None) - This ensures that the random number generator uses a new random starting point every time the code runs.
+02. Since no fixed seed is set, the numbers will change every time you run the code.
+
+## Difference between the two output
+01. Reproducibility:
+Seeded: Output is reproducible and consistent across runs.
+Non-Seeded: Output is not reproducible and changes every time.
+02. Randomness:
+Seeded: The sequence of random numbers is deterministic.
+Non-Seeded: The sequence of random numbers is truly random.
+03. Use Cases:
+Seeded: Used when consistent results are needed.
+Non-Seeded: Used when variability is required.
